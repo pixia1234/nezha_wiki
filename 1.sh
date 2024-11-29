@@ -347,7 +347,7 @@ install_agent() {
     echo "正在获取监控Agent版本号"
 
 
-    _version="v0.25.0"
+    _version="v0.20.5"
 
     if [ -z "$_version" ]; then
         err "获取 Agent 版本号失败，请检查本机能否链接 https://api.github.com/repos/nezhahq/agent/releases/latest"
